@@ -1,0 +1,38 @@
+.logo{
+     width: 46px; /*vai fazer com que a imagem diminua */
+     border-radius: 50%;
+}
+
+.bg-light-dark{
+    background-color:lightblue;
+}
+
+/* .nav-link{
+    color:white;
+} */
+.bg-pink{
+    background-color: rgb(116, 161, 175);
+}
+
+.text-x{                                      /*para mudar a cor do texto*/
+    color: rgb(248, 248, 238) !important;              /* esse important deixa o seu código ser lido acima do bootstrap*/
+}
+
+.header-cadastro{
+    background-image: url(../img/img2.jpg);
+    background-color: rgb(14, 66, 19);
+    min-height: 35vh;
+    background-position: top left;     /*ou quando precisar ajustar a imagem do jeito que quiser */
+    
+}
+
+.header-cadastro div{
+    min-height: 35vh;
+    color:rgb(248, 248, 238);
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+
+    background: rgb(18, 19, 18);
+    background: linear-gradient(98deg, rgb(61, 94, 66) 27%, rgb(225, 225, 225, 0.13687193627450978) 67%);
+}
